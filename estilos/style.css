@@ -1,22 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --colorBackgroundBody: #CC9DF8;
+    --colorBackgroundMain: #20E6E6; 
+}
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Recursive', sans-serif;
     font-size: 16px;
 }
 
 body{
-    background-color: rgb(204, 157, 248);
+    background-color: var(--colorBackgroundBody);
 }
 
 main{
-    background-color:#20E6E6;
+    background-color:var(--colorBackgroundMain);
     width: 500px;
     margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);   
 }
-h2{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 h1{
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    margin-right: 35px;
 }
